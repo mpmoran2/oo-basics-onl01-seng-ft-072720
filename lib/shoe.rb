@@ -1,13 +1,13 @@
 class Book
-  attr_accessor :author, :page_count, :genre
+  attr_accessor :color, :size, :material, :condition
   attr_reader :brand
  
-  def initialize(brand)
-    @title = title
+  def initialize(brand, condition = "New")
+    @brand = brand
   end
  
   def cobble
-    puts "Flipping the page...wow, you read fast!"
+    puts "The show has been repaired"
   end
  
 end
